@@ -17,7 +17,7 @@ const text_font = Poppins({
 
 const MarketingPage = () => {
   return (
-    <div className="flex flex-col items-center justify-center text-center min-h-[60vh] px-4">
+    <div className="flex flex-col items-center justify-center text-center min-h-[60vh] px-4 mb-30 ">
       <h1 className="text-7xl md:text-8xl text-neutral-700 mb-6 font-bold">
         Move Work Forward.
       </h1>
