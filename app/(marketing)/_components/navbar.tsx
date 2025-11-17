@@ -9,10 +9,10 @@ export default function Navbar() {
       <div className="md:max-w-screen-2xl mx-auto flex items-center w-full justify-between">
         <Logo />
         <div className="space-x-4 md:block md:w-auto flex items-center justify-between w-full">
-          <Button variant={"outline"} size={"lg"} asChild className="text-xl p-6">
+          <Button variant={"outline"} size={"lg"} asChild className="md:text-xl md:p-6 text-lg">
             <Link href="/login">Log In</Link>
           </Button>
-          <Button size={"lg"} variant={"default"} asChild className="text-xl p-6">
+          <Button size={"lg"} variant={"default"} asChild className="md:text-xl md:p-6 text-lg">
             <Link href="/signup">Get Started</Link>
           </Button>
         </div>
